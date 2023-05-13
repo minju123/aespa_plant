@@ -26,6 +26,7 @@ public class activity_tomato extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(activity_tomato.this, activity_credit.class);
                 startActivity(intent);
+
             }
         });
 
