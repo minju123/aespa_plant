@@ -30,6 +30,11 @@ public class MainActivity extends AppCompatActivity {
         textView = (TextView) findViewById(R.id.textview);
         editText = (EditText) findViewById(R.id.edittext);
         button = (Button) findViewById(R.id.button);
+        /*
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference("message");
+        myRef.setValue("Success");
+         */
 
     }
 
